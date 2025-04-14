@@ -1,14 +1,13 @@
 // SUBSTITUA pelos seus dados:
-const baseId = 'cole_aqui_seu_BASE_ID';
+const baseId = 'app5AQ4goCRsCVNo9';
 const tableName = 'Empresas';
-const apiKey = 'cole_aqui_sua_API_KEY';
+const apiKey = 'pat2Snm2JeXVzgGlj.c7cd4d9ae1025806bf89de2148770f382250179a948e30318a2f24268cf02b1e';
 
-const url = `https://api.airtable.com/v0/${baseId}/${tableName}`;
+const url = `https://api.airtable.com/v0/app5AQ4goCRsCVNo9/Empresas`;
 const headers = {
   Authorization: `Bearer ${apiKey}`,
   'Content-Type': 'application/json'
 };
-
 // Função para adicionar empresa
 document.getElementById('empresa-form').addEventListener('submit', async (e) => {
   e.preventDefault();
